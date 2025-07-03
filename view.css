@@ -1,0 +1,50 @@
+body {
+    background: black;
+    font-family:sans-serif;
+}
+.hell{
+    display:flex;
+    align-items:center;
+}
+.hell h3{
+    color: red;
+    margin-left:100px;
+}
+.hell button{
+    padding:7px;
+    background: none;
+    border: 1px solid white;
+    outline:none;
+    border-radius: 10px;
+    color: white;
+}
+.notes{
+    background: re;
+    height:10%;
+    width: 100%;
+}
+.notes button{
+    width: 100%;
+    height:50px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    background: whitesmoke;
+}
+button h5{
+    position: absolute;
+    top:-40px;
+    left:4px;
+    font-size:25px;
+
+}
+button p{
+    position: absolute;
+    top:10px;
+    left: 4px;
+    font-size:18px;
+}
