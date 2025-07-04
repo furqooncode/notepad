@@ -21,19 +21,20 @@ function trash() {
 function save() {
     text.setAttribute("readonly", true);
     head.setAttribute("readonly", true);
+let notes = JSON.parse(localStorage.getItem('notes')) || [];
 
-
-
-let notes = JSON.parse(localStorage.getItem('notes'));
-
-notes.push('head.value');
-
-
-
-
+notes.push({
+    head :head.value,
+    text: text.value,
+    date:new Date().toLocaleString()
+})
+ 
+ localStorage.setItem('notes', JSON.stringify(notes));
  location.href = "view.html";
-   
+
 }
+
+
 function edit() {
     text.removeAttribute("readonly");
     head.removeAttribute("readonly");
