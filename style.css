@@ -1,91 +1,41 @@
 body {
-    background: black;
-    color: white;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+.container{
+    background:lightgray;
     height: 100%;
     width: 100%;
+    position: absolute;
+    display:grid;
+    place-items:center;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    position: fixed;
-    z-index:1000;
-    width: 98%;
-    top: 0;
-    left: 0;
-    height: 30px;
-    background: black;
-    margin-left: 5px;  
+.boxes{
+    background:whitesmoke;
+    display:flex;
+    flex-wrap:wrap;
+    
+    height: 30%;
+    width: 70%;
+    border-radius: 10px;
 }
-.save{
-    margin-right:10px;
+.type{
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 13px;
+    flex-grow:1;
+    flex-basis:200;
 }
 button{
-    height: 30px;
-    width: 45px;
-    border:1px solid whitesmoke;
-    outline:none;
-    border-radius: 10px;
-    background: transparent;
-    color:white;
-}
-main{
-   
-    height: 90%;
-    display:grid;
-    position: absolute;
-    margin-top:40px;
-}
-.area{
     height: 100%;
-    padding: 5px;
- }
-.area input{
-    height:5%;
-    width: 95%;
-    padding-top:7px;
-    color: white;
-    font-size:30px;
-    margin-bottom:10px;
-    background: none;
-    outline:none;
-   border:2px dotted white;
-   overflow:hidden;
-}
-.save {
-    width: 100px;
-    display:flex;
-   justify-content: flex-end;
-    margin:5px;
-}
-input ::placeholder{
-    color: white;
-    font-size:30px;
-}
-textarea{ 
-    background:none;
-    color: white;
-    overflow:auto;
+    width: 100%;
+    border-radius: 13px;
     border:none;
-    font-size:15px;
     outline:none;
-    font-family:sans-serif;
-}
-textarea ::placeholder{
-    color: red;
-} 
-.clear{
-    display:flex;
-    justify-content: flex-end;
-    margin-right: 5px;
-}
-.clear #burn{
-    display:none;
-}
-#edd{
-    
-    margin-right:5px;
-}
-#ell{
-    margin-right:5px;
+    background: black;
+    color: white;
+    font-size:20px;
 }

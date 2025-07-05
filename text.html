@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="text.css">
+</head>
+<body>
+  <div class="container">
+        <header>
+            <div class="back">
+                <button onclick="back()">Back</button>
+            </div>
+            
+            <div class="save">
+       <button onclick="edit()" id="edd">Edit</button>
+       <button onclick="save()" id="ell">Save</button>
+            </div>
+        </header>
+        
+        <main>
+           <div class="area">
+    <input type="text" placeholder="Add a Heading" id="head">
+    <textarea rows="35" cols="43" placeholder="Descriptions" id="text"></textarea>
+            </div>
+           
+           <div class="clear">
+    <button onclick="trash()" id="burn">Clear</button>
+           </div>
+        </main>
+    </div>
+    
+    
+  <script src="text.js"></script>
+</body>
+</html>

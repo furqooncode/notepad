@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background:black;
     font-family:sans-serif;
 }
 .hell{
@@ -16,7 +16,7 @@ body {
     border: 1px solid white;
     outline:none;
     border-radius: 10px;
-    color: white;
+    color:white;
 }
 .notes{
     background: re;
@@ -47,4 +47,30 @@ button p{
     top:10px;
     left: 4px;
     font-size:18px;
+}
+.singleNote{
+    position: relative;
+    height: 40px;
+    border-radius:14px;
+}
+p{
+    color:white;
+    position: absolute;
+    bottom:0;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h5{
+    color:whitesmoke;
+    position: absolute;
+    font-size: 20px;
+    bottom:5px;
+}
+small{
+    position: absolute;
+    bottom:0;
+    margin-left: 180px;
+    color: whitesmoke;
 }
