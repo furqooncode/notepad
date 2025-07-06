@@ -30,8 +30,8 @@ button{
     color:white;
 }
 main{
-   
-    height: 70%;
+    height: 85%;
+    position: relative;
     display:grid;
     position: absolute;
     margin-top:40px;
@@ -78,6 +78,10 @@ textarea ::placeholder{
     display:flex;
     justify-content: flex-end;
     margin-right: 5px;
+
+    position: absolute;
+    bottom:0;
+    right:0;
 }
 .clear #burn{
     display:none;
