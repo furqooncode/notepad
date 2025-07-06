@@ -56,7 +56,7 @@ button p{
 p{
     color:white;
     position: absolute;
-    bottom:0;
+    bottom:3px;
     width: 300px;
     white-space: nowrap;
     overflow: hidden;
@@ -71,6 +71,6 @@ h5{
 small{
     position: absolute;
     bottom:0;
-    margin-left: 180px;
+    margin-left: 170px;
     color: whitesmoke;
 }
