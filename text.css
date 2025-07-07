@@ -87,7 +87,7 @@ textarea ::placeholder{
     display:none;
 }
 #edd{
-    
+    display: none;
     margin-right:5px;
 }
 #ell{

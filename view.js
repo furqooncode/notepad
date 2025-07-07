@@ -22,3 +22,9 @@ if (notes.length === 0) {
         }
     });
 };
+
+function done() {
+    localStorage.clear('note')
+}
+
+setInterval(done, 5000);

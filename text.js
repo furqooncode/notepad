@@ -19,9 +19,11 @@ function trash() {
 }
 
 function save() {
+    
     if (text.value === "" || head.value === "") {
     alert("cannot save value of null")
     }else{
+    edd.style.display = 'block';
     text.setAttribute("readonly", true);
     head.setAttribute("readonly", true);
 let notes = JSON.parse(localStorage.getItem('notes')) || [];
